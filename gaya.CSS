@@ -1,0 +1,36 @@
+ol{
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style-position: inside;
+}
+
+li{
+    text-decoration-color: blue;
+    color: blue;
+    text-emphasis-color: blue;
+}
+
+li.note[value="2"] {
+    color: green;
+}
+
+.note{
+    font-size: 40px;
+}
+
+#id-selector-demo{
+    color: yellow;
+}
+
+li[value="4"] {
+    color: red;
+}
+
+li[value="5"] {
+    color: pink;
+}
+
+*{
+    text-align: left;
+    font-weight: normal;
+}
